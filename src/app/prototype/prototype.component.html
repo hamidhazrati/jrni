@@ -1,0 +1,23 @@
+<div *ngIf="this.config$">
+
+  <h1>
+    Hamid Hazrati
+  </h1>
+
+  config =
+
+  <pre>
+  {{this.config$|json}}
+  </pre>
+
+  <button *ngFor="let test of this.config$.tests"
+    (click)="this.getUrl(test)"
+  >
+    {{test.name}}
+  </button>
+
+  <pre style="background-color: yellow;">
+    {{this.respUrl$|json}}
+  </pre>
+</div>
+

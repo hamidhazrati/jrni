@@ -1,0 +1,21 @@
+{
+  "tests":[
+    {
+      "name": "test1",
+      "url": "https://qauk-staging.bookingbug.com/api/v1/company/40227/children"
+    },
+    {
+      "name": "test2",
+      "url": "http://www.bbc.co.uk/"
+    },
+    {
+      "name": "test3",
+      "url": "http://www.bbc.co.uk/"
+    }
+  ],
+  "headers": {"headers": {
+    "App-Id" : "f6b16c23",
+    "App-Key": "f0bc4f65f4fbfe7b4b3b7264b655f5eb"
+    }
+  }
+}

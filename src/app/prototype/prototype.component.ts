@@ -26,6 +26,11 @@ export class PrototypeComponent implements OnInit {
     this.http.get(test.url,this.config$.headers).subscribe(resp=>{
       this.respUrl$ = resp;
       console.log(resp);
-    });
+    },
+    error => {
+      console.log(error);
+      this.respUrl$ = error.message;
+      }
+    );
   }
 }

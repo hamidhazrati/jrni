@@ -5,12 +5,12 @@
       "url": "https://qauk-staging.bookingbug.com/api/v1/company/40227/children"
     },
     {
-      "name": "test2",
+      "name": "bbc",
       "url": "http://www.bbc.co.uk/"
     },
     {
-      "name": "test3",
-      "url": "http://www.bbc.co.uk/"
+      "name": "jrni",
+      "url": "https://www.jrni.com/"
     }
   ],
   "headers": {"headers": {
